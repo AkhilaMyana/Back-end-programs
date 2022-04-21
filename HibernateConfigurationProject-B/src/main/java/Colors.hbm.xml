@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="p1.Colors" table="colors">
+		<id name="id" column ="id"></id>
+		<property name="color_name">
+			<column name="color_name"/>
+		</property>
+		<property name="idx">
+			<column name="idx"/>
+		</property>
+		<property name="product_id">
+			<column name="product_id"/>
+		</property>
+	</class>
+</hibernate-mapping>
